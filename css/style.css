@@ -1,0 +1,126 @@
+/* product section css starts */
+.product .title{
+    padding: 10px 8px;
+    text-align: center;
+    font-size: 300;
+
+}
+.new-arrival .title-2{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 1rem;
+    border: #f5aa09;
+    color: #fff;
+    background-color:#444;
+    width: 20%;
+    text-align: center;
+    border-top-left-radius: 30.5%;
+    border-bottom-right-radius:30.5% ;
+    border-bottom-left-radius:4%;
+}
+.product-grid{
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #888;
+    border-radius: 2%;
+    box-shadow: 0px 0px 0px #fff;
+    transition: 1.1s all;
+    
+}
+.product-grid:hover{
+    box-shadow: 14px 11px 14px rgba(49, 49, 49, 0.3);
+}
+
+.product-grid .prodct-image{
+    position:relative;
+   overflow: hidden;
+    transition: 1.5s all;
+
+}
+.product-grid .prodct-image .image{
+    display: block;
+     
+}
+.product-grid .prodct-image img{
+    width: 100%;
+    height: auto;
+}
+.prodct-image #pic-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: 0.5s all;
+
+}
+.product-grid .prodct-image #pic-1{
+    opacity: 1;
+    transition: 1.5s all;
+}
+.product-grid:hover .prodct-image #pic-1{
+    opacity: 0;
+}
+.product-grid:hover .prodct-image #pic-2{
+    opacity: 1;
+}
+.product-grid .image .image-resize{
+    height:200px ;
+    object-fit: cover;
+    object-position: center center;
+}
+.product-grid .social{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    list-style: none;
+}
+.product-grid .social li{
+    margin: 0 0 10px;
+    transform:translateX(100px) ;
+    transition: 0.5s all;
+}
+.product-grid:hover .social li{
+    transform:translateX(0) ; 
+}
+.product-grid .social li a{
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    transition: 1.5s all;
+}
+
+.product-grid .social li a:hover{
+    color:#fff;
+    background-color:#f5aa09;
+}
+.product-grid .product-content {
+    padding: 20px 10px;
+
+}
+.product-grid .product-content .p-title{
+    font-size: 15px;
+    font-weight: 600;
+    font-family:'Nunito' ;
+    text-transform: capitalize;
+    margin: 0 0 7px;
+    
+}
+.product-grid .product-content .p-title a{
+    text-decoration: none;
+    color: #444;
+}
+.product-grid .product-content h5{
+    color: greenyellow;
+}
+.product-grid .product-content .ratings{
+    color: #E9B74D;
+}
+/* product section css end */
