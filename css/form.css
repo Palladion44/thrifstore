@@ -3,11 +3,21 @@
     
   
 }
+#heading:first-line{
+  background:linear-gradient(violet,indigo,blue,yellow,orange,red,violet,indigo,blue,yellow,orange);
+  -webkit-background-clip:text;
+  color: transparent;
+  font-size: 62.5px;
+}
+
+body{
+  background-image: url(/images/formimages/flat-design-geometric-shapes-background_23-2148366514.webp);
+}
 img{
     border-radius: 5px !important;
 }
 .form-control {
-  /* margin-bottom: 1%; */
+  background-color: white ;
  
  }
  .form-control input{
