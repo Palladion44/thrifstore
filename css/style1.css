@@ -9,6 +9,7 @@ body{
     font-family:𝓼𝓪𝓽𝓲𝓼𝓯𝔂 ;
     
 }
+/* navbar css start  */
 .navbar-brand{
     font-size: 32px;
 }
@@ -25,28 +26,28 @@ body{
 }
 .navbar .navbar-nav .nav-link:hover{
     /* color: black; */
-    color: orange !important;
-    background-color: orange;
+    color: white !important;
+    background-color: #ffa500;
+}
+/* navbar css end  */
+.productoffer{
+    padding-top: 8.75rem;
 }
 
-/* .abc{
-    width:70%;
-    height: 50%;
-    left: 15%;
-    top: 20%;
-    position: absolute;
-    background-image: url(a1.jpg);
-    background-size: 100% 100%;
-    box-shadow: 1px 2px 10px 7px rgb(0, 0, 0);
-    animation:slider 5s infinite linear;
-}
-@keyframes slider{
-    0%{background-image: url(/thrifstore/images/image1/bg1.png);}
-    30%{background-image: url(/images/image1/bg2.jpg); }
-    60%{background-image: url(/images/image1/logo.jpg); }
-    99%{background-image: url(/images/formimages/a2.webp);}
-} */
-/* cards */
+
+/* our offer css start */
+
+
+
+
+
+
+
+
+
+   
+/* our offer css end */
+
 
 
 
@@ -63,90 +64,7 @@ body{
 /* card end */
 
 
-.footeranimation{
-    width: 100%;
-    height: 100vh;
-    background-color: skyblue;
-    overflow: hidden;
-    position: relative;
 
-}
-
-.footeranimation .wave{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background-image: url(/images/footerwave/wave.png);
-    background-size: 1000px 100px;
-
-}
-.footeranimation .wave.wave1{
-    animation: animate 30s linear infinite;
-    z-index: 1000;
-    opacity: 1;
-    animation-delay: 0s;
-    bottom: 0;
-
-}
-
-.footeranimation .wave.wave2{
-    animation: animate2 15s linear infinite;
-    z-index: 999;
-    opacity: 0.5;
-    animation-delay: -5s;
-    bottom: 10px;
-
-}
-.footeranimation .wave.wave3{
-    animation: animate 30s linear infinite;
-    z-index: 998;
-    opacity: 0.2;
-    animation-delay: -2s;
-    bottom: 15px;
-
-}
-.footeranimation .wave.wave4{
-    animation: animate2 5s linear infinite;
-    z-index: 997;
-    opacity: 0.7;
-    animation-delay: -5s;
-    bottom: 10px;
-
-}
-
-
-@keyframes animate{
-
-    0%{
-        background-position-x: 0;
-
-
-    }
-
-
-    100%{
-        background-position-x: 1000px;
-    }
-
-
-}
-@keyframes animate2{
-
-    0%{
-        background-position-x: 0;
-
-
-    }
-
-
-    100%{
-        background-position-x: -1000px;
-    }
-
-
-}
-.aindex{
-    z-index: 4000;
-}
+  
+  
+  
