@@ -20,7 +20,7 @@ body{
     text-decoration: none;
     color: black;
     transform: uppercase;
-    /* font-family: 'Nunito'; */
+    
     text-align: center;
     padding: 0.5rem 1rem ;
 }
@@ -34,24 +34,110 @@ body{
     padding-top: 8.75rem;
 }
 .cards:hover{
-    box-shadow: 9px 4px 7px 5px;
+    box-shadow: 4px 4px 30px -2px;
 }
 .cards{
     width: 25% !important;
+    border-radius: 5px;
+}
+.add{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.cardes{
+    width: 20% !important;
+    margin: 0;
+    padding: 0;
 
 }
+.text1{
+  
+}
 
-/* our offer css start */
 
+/* our 1 offer css start */
+  div.slide-left {
+    width:100%;
+    overflow:hidden;
+    color:black;
+    background-color:#ffa500;
+  }
+  div.slide-left h1 {
+    animation: slide-left 32s;
+  }
+  div.slide-left h4 {
+    animation: slide-left 27s;
+  }
+  
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+     
+      width: 100%;
+    }
+  }
+/* our 1 offer css end */
 
+/* our 2 offer css start */
+.slide-lefe{
+    background-color: #ffa500;
+    text-align: center;
+    justify-content: center;
+}
+@import url(
+    'https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+         
+          .slide-lefe{
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+          }
+          .slide-lefe:first-of-type{
+            animation: appear 6s infinite;
+          }
+          .slide-lefe:last-of-type{
+            animation: reveal 6s infinite;
+          }
+          .slide-lefe:last-of-type span{
+            font-size: 33px;
+           
+            animation: slide 6s infinite;
+           
+          }
+          @keyframes appear{
+            0%{opacity: 0;}
+            20%{opacity: 1;}
+            80%{opacity: 1;}
+            100%{opacity: 0;}
+          }
+          @keyframes slide{
+            0%{margin-left:-800px;}
+            20%{margin-left:-800px;}
+            35%{margin-left:0px;}
+          100%{margin-left:0px;}
+          }
+          @keyframes reveal{
+            0%{opacity: 0; width: 0px;}
+            20%{opacity: 1; width: 0px;}
+            30%{width: 100%;}
+            80%{opacity: 1;}
+            100%{opacity: 0; width: 655px;}
+          }
 
+/* our 2 offer css start */
 
 
 
 
 
    
-/* our offer css end */
+
 
 
 
