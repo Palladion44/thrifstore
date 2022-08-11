@@ -33,10 +33,15 @@ body{
 .productoffer{
     padding-top: 8.75rem;
 }
+.cards:hover{
+    box-shadow: 9px 4px 7px 5px;
+}
+.cards{
+    width: 25% !important;
 
+}
 
 /* our offer css start */
-
 
 
 
