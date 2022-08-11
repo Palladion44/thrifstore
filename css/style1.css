@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.counter{
+  margin: auto;
+}
 body{
     
     text-transform: capitalize;
