@@ -175,6 +175,10 @@ body{
 .anchoicon{
   text-decoration: none;
 }
+.anchoicon:hover{
+  text-decoration: none;
+
+}
 .wavvyx{
 
  background-image: url('/thrifstore/images/footerwave/wave.png');
@@ -192,7 +196,7 @@ body{
 .wavvyx2{
  background-image: url('/thrifstore/images/footerwave/backgrounfoter.png') ;
 
-
+color: white ;
    background-size: contain;
    background-repeat: repeat;
  
@@ -212,7 +216,7 @@ footer{
 }
 .colorzz{
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
-color: black;
+color: white;
 
 }
 .ungine{
