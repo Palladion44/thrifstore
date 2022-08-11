@@ -54,15 +54,14 @@ body{
     background-color: black;
     color: white;
 }
-.cardes{
-    width: 30% !important;
-    margin: 0;
-    padding: 0;
+.card1{
+  justify-content: center;
 
 }
-.text1{
-  
+.card1:hover{
+  box-shadow:4px 4px 30px -2px ;
 }
+
 
 
 /* our 1 offer css start */
@@ -166,6 +165,7 @@ body{
 
 
   
+
 
 .icons2{
   margin: 10px;
