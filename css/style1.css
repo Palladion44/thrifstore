@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +16,8 @@ body{
     font-family:𝓼𝓪𝓽𝓲𝓼𝓯𝔂 ;
     
 }
+
+
 /* navbar css start  */
 .navbar-brand{
     font-size: 32px;
@@ -162,4 +167,61 @@ body{
 
   
   
+.icons2{
+  margin: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.anchoicon{
+  text-decoration: none;
+}
+.wavvyx{
+
+ background-image: url('/thrifstore/images/footerwave/wave.png');
+  background-size: contain;
+  background-repeat: repeat;
+
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+  
+
+  
+}
+.wavvyx2{
+ background-image: url('/thrifstore/images/footerwave/backgrounfoter.png') ;
+
+
+   background-size: contain;
+   background-repeat: repeat;
+ 
+   margin: 0;
+   padding: 0;
+
+   
+ 
+   
+ }
+ 
+footer{
+  margin-top: 0%;
+  background-color: #ff9000 !important;
+ 
+  width: 100% !important;
+}
+.colorzz{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+color: black;
+
+}
+.ungine{
+  margin-bottom: 0px;
+  margin: 0% !important;
+}
+.backie{
+  background-color: orange;
+  
+ 
+}
   
