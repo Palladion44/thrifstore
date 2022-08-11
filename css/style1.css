@@ -68,10 +68,10 @@ body{
     background-color:#ffa500;
   }
   div.slide-left h1 {
-    animation: slide-left 32s;
+    animation: slide-left 27s;
   }
   div.slide-left h4 {
-    animation: slide-left 27s;
+    animation: slide-left 32s;
   }
   
   @keyframes slide-left {
