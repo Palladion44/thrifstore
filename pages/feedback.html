@@ -82,7 +82,7 @@
               <header>create new account</header>
               <div class="form-group">
                   <i class="fa fa-user"></i>
-                  <input class="myInput" type="text" placeholder="Username" id="username" required >
+                  <input class="myInput" type="text" placeholder="Username" id="username" minlength="3" maxlength="20" required >
                   
               </div>
   
@@ -94,7 +94,7 @@
   
               <div class="form-group">
                   <i class="fa-solid fa-lock"></i>
-                  <input class="myInput" type="passward" placeholder="passward" id="passward" required >
+                  <input class="myInput" type="passward" placeholder="passward" id="passward" minlength="4" maxlength="15" required >
                   
               </div>
   
@@ -144,7 +144,7 @@
  
      .my-container{
         position: absolute;
-        max-width: 800px;
+        max-width: 800px; 
         height: 500px;
         margin: auto;
         top: 50%;
