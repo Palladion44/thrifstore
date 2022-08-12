@@ -11,7 +11,7 @@
   margin: auto;
 }
 body{
-    
+    text-decoration: none;
     text-transform: capitalize;
     font-family:𝓼𝓪𝓽𝓲𝓼𝓯𝔂 ;
     
@@ -139,8 +139,11 @@ body{
 
 /* our 2 offer css start */
 
-
-
+#ba{
+  background-color: #ff9000;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
@@ -210,6 +213,8 @@ color: white;
 }
   
 .star{
+  text-align: center;
+  justify-content: center;
   opacity: 1;
   transition: 1s;
 }
