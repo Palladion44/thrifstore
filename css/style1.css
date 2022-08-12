@@ -243,10 +243,15 @@ color: white;
   text-align: center;
   justify-content: center;
   opacity: 1;
+  text-decoration: none;
+  color: #ffa500;
   transition: 1s;
 }
 .star:hover{
+  
   transform: scale(1.1);
+  text-decoration: none !important;
+
 }
 .aboutus{
   color: white ;
@@ -258,4 +263,12 @@ margin-top: 10%;
   background-image: linear-gradient(to right, orangered , orange);
 
 margin-top: 2%;
+}
+.product-heading{
+  margin-top: 10%;
+  background-color: orange;
+  color: white;
+text-align: center;
+width: 100%;
+margin-bottom: 5%;
 }
