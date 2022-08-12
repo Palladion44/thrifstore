@@ -211,5 +211,10 @@ color: white;
  
 }
   
-
-
+.star{
+  opacity: 1;
+  transition: 1s;
+}
+.star:hover{
+  transform: scale(1.1);
+}
