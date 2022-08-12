@@ -265,4 +265,9 @@ margin-top: 2%;
 }
 .product-heading{
   margin-top: 10%;
+  background-color: orange;
+  color: white;
+text-align: center;
+width: 100%;
+margin-bottom: 5%;
 }
