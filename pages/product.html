@@ -30,46 +30,60 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
-        <a href="" class="navbar-brand   ">
-          <img width="10%" src="/thrifstore/images/image1/logo.png" >
-        <span style="font-size:32px;color: black;">𝕿𝖍𝖗𝖎𝖋𝖙𝕱𝕬𝕾𝕳𝕴𝕺𝕹</span>   <span
-            style="color:orange ;width: fit-content; font-size: 32px;">𝕾𝖙𝖔𝖗𝖊</span></a>
-            <span class="counter">
-              <p>Number <span style="color: orange;"> of </span> visits</p>
-              <a href="https://www.freecounterstat.com" title="free website counter"><img style="width: 70%;" src="https://counter9.stat.ovh/private/freecounterstat.php?c=7h53uw3txzktq76ml98k2eu3p2gyuf5q" border="0" title="free website counter" alt="free website counter"></a>
-                       
-                           
-            </span>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a href="" class="navbar-brand   ">
+      <img width="10%" src="/thrifstore/images/image1/logo.png">
+      <span style="font-size:32px;color: black;">𝕿𝖍𝖗𝖎𝖋𝖙𝕱𝕬𝕾𝕳𝕴𝕺𝕹</span> <span
+        style="color:orange ;width: fit-content; font-size: 32px;"> 𝕾𝖙𝖔𝖗𝖊</span></a>
+    <span class="counter">
+      <p>Number <span style="color: orange;"> of </span> visits</p>
+      <a href="https://www.freecounterstat.com" title="free website counter"><img style="width: 70%;"
+          src="https://counter9.stat.ovh/private/freecounterstat.php?c=7h53uw3txzktq76ml98k2eu3p2gyuf5q" border="0"
+          title="free website counter" alt="free website counter"></a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
-            aria-label="Toggle navigation" aria-controls="mynavbar" aria-expanded="false">
+
+    </span>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+      aria-label="Toggle navigation" aria-controls="mynavbar" aria-expanded="false">
+
+      <span class="navbar-toggler-icon"></span> </button>
+
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item  dropdown">
+          <a href="/thrifstore/index.html" class="nav-link text-decoration-none dropdown-toggle" 
+          id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">home</a>
+          
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#about">About</a></li>
+              
+            </ul>
+          </li>
+        </li>
+
+        <li class="nav-item dropdown active">
+          <a href="/thrifstore/pages/product.html" class="nav-link  dropdown-toggle"
+          id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">products</a>
+          
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/thrifstore/pages/product.html#shoes">shoes</a></li>
+            <li><a class="dropdown-item" href="/thrifstore/pages/product.html#bags">bags</a></li>
+            <li><a class="dropdown-item" href="/thrifstore/pages/product.html#tshirt">tshirts</a></li>
+          </ul>
+
+        </li>
        
-            <span class="navbar-toggler-icon"></span> </button>
+        <li class="nav-item">
+          <a href="/thrifstore/pages/feedback.html" class="nav-link">feedback</a>
+        </li>
+      </ul>
+    </div>
 
-            <div class="collapse navbar-collapse" id="mynavbar">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item active">
-                        <a href="/thrifstore/index.html" class="nav-link">home</a>
-                    </li>
-                    
-                  <li class="nav-item">
-                    <a href="/thrifstore/pages/product.html" class="nav-link">products</a>
-                </li>
-                    <li class="nav-item">
-                        <a href="/thrifstore/index.html/#about" class="nav-link">about</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="/thrifstore/pages/feedback.html" class="nav-link">feedback</a>
-                    </li>
-                </ul>
-            </div>
-
-    </nav>
-
-    <h1 class="product-heading">Bags</h1>
-    <section class="our-outlet">
+  </nav>
+    
+    <section class="our-product1" id="bags">
+      <h1 class="product-heading text-warning bg-dark">Bags</h1>
     <div class="container">
         <div class="row g-5">
 
@@ -209,7 +223,8 @@
        </div>
       </section>
        <br><br>
-       <h1 class="product-heading">
+       <section class="shoes" id="shoes">
+       <h1 class="product-heading text-warning bg-dark" >
          Shoes
        </h1>
 
@@ -265,7 +280,7 @@
                   <!-- card-three  -->
                   <div class="col-sm-4 cardes ">
                     <div class="card w-100" style="width:18rem">
-                      <img src="/thrifstore/images/carousel/pink.JPG" " alt="" class="card-img-top">
+                      <img src="/thrifstore/images/carousel/pink.JPG" alt="" class="card-img-top">
                       <div class="card-body" >
                         <h5 class="star">
                           <i class="fa-solid fa-star"></i>
@@ -345,7 +360,10 @@
                
          </div>
        </div>
-       <h1 class="product-heading">
+      </section>
+      <br><br>
+      <section class="tshir" id="tshirt">
+       <h1 class="product-heading bg-dark text-warning">
         T-Shirts / Upper ware
       </h1>
 
@@ -482,6 +500,7 @@
                
          </div>
        </div>
+      </section>
 
 
     <footer class=" wavvyx2 ungine backie text-center text-lg-start bg-light text-muted">

@@ -14,6 +14,7 @@ body{
    
     text-transform: capitalize;
     font-family:𝓼𝓪𝓽𝓲𝓼𝓯𝔂 ;
+    scroll-behavior: smooth;
     
     
 }
@@ -32,6 +33,9 @@ body{
 .navbar .navbar-nav .nav-item.active{
   background-color: orange;
   
+}
+.navbar .navbar-nav .nav-item{
+  padding: 5px;
 }
 .navbar .navbar-nav .nav-item .nav-link{
     text-decoration: none;
