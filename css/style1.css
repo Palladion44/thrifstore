@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,10 +16,15 @@ body{
     font-family:𝓼𝓪𝓽𝓲𝓼𝓯𝔂 ;
     
 }
+
+
 /* navbar css start  */
 .navbar-brand{
     font-size: 32px;
+    
 }
+
+
 /* .nav .navbar-nav .nav-link{
     color: black;
 } */
@@ -41,7 +49,7 @@ body{
     box-shadow: 4px 4px 30px -2px;
 }
 .cards{
-    width: 25% !important;
+    width: 35% !important;
     border-radius: 5px;
 }
 .add{
@@ -49,15 +57,15 @@ body{
     background-color: black;
     color: white;
 }
-.cardes{
-    width: 20% !important;
-    margin: 0;
-    padding: 0;
+.card1{
+  justify-content: center;
 
 }
-.text1{
+.cardes:hover{
+  box-shadow:4px 4px 30px -2px ;
   
 }
+
 
 
 /* our 1 offer css start */
@@ -127,8 +135,8 @@ body{
           100%{margin-left:0px;}
           }
           @keyframes reveal{
-            0%{opacity: 0; width: 0px;}
-            20%{opacity: 1; width: 0px;}
+            0%{opacity:0 ; width:0 ;}
+            20%{opacity: 1; width:0 ;}
             30%{width: 100%;}
             80%{opacity: 1;}
             100%{opacity: 0; width: 655px;}
@@ -140,26 +148,87 @@ body{
 
 
 
+
+  
+
+
+.icons2{
+  margin: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.anchoicon{
+  text-decoration: none;
+}
+.anchoicon:hover{
+  text-decoration: none;
+
+}
+.wavvyx{
+
+ background-image: url('/thrifstore/images/footerwave/wave.png');
+  background-size: contain;
+  background-repeat: repeat;
+
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+  
+
+  
+}
+.wavvyx2{
+ background-image: url('/thrifstore/images/footerwave/backgrounfoter.png') ;
+
+color: white ;
+   background-size: contain;
+   background-repeat: repeat;
+ 
+   margin: 0;
+   padding: 0;
+
    
+ 
+   
+ }
+ 
+footer{
+  margin-top: 0%;
+  background-color: #ff9000 !important;
+ 
+  width: 100% !important;
+}
+.colorzz{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+color: white;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* card end */
-
-
-
+}
+.ungine{
+  margin-bottom: 0px;
+  margin: 0% !important;
+}
+.backie{
+  background-color: orange;
   
+ 
+}
   
-  
+.star{
+  opacity: 1;
+  transition: 1s;
+}
+.star:hover{
+  transform: scale(1.1);
+}
+.aboutus{
+  color: white ;
+  background-image: linear-gradient(to right, orangered , orange);
+margin-top: 10%;
+}
+.aboutus2{
+  color: white ;
+  background-image: linear-gradient(to right, orangered , orange);
+
+margin-top: 2%;
+}
