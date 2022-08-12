@@ -221,3 +221,8 @@ color: white;
 .star:hover{
   transform: scale(1.1);
 }
+.aboutus{
+  color: white ;
+background-color: orange ;
+margin-top: 2%;
+}
