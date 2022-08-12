@@ -45,23 +45,14 @@ body{
 .productoffer{
     padding-top: 8.75rem;
 }
-.cards:hover{
-    box-shadow: 4px 4px 30px -2px;
-}
-.cards{
-    width: 35% !important;
-    border-radius: 5px;
-}
+
 .add{
     text-align: center;
     background-color: black;
     color: white;
 }
-.card1{
-  justify-content: center;
 
-}
-.cardes:hover{
+.card:hover{
   box-shadow:4px 4px 30px -2px ;
   
 }
@@ -95,7 +86,11 @@ body{
     }
   }
 /* our 1 offer css end */
-
+.av{
+  text-decoration: none;
+  text-decoration-line: none;
+  
+}
 /* our 2 offer css start */
 .slide-lefe{
     background-color: #ffa500;
