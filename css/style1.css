@@ -223,6 +223,12 @@ color: white;
 }
 .aboutus{
   color: white ;
-background-color: orange ;
+  background-image: linear-gradient(to right, orangered , orange);
+margin-top: 10%;
+}
+.aboutus2{
+  color: white ;
+  background-image: linear-gradient(to right, orangered , orange);
+
 margin-top: 2%;
 }
